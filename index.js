@@ -9,7 +9,7 @@
 
 // let notes = [2000,500,200,100,50,10,5,1]
 
-//  givnote = []
+//  0[]
 
 // for (let i=0;i<notes.length;i++){
 //     givnote[i]=Math.floor(rem/notes[i])
@@ -39,6 +39,8 @@ function Calculate(){
     let bill = document.querySelector(".bill")
     let noteGiven = document.querySelector(".noteGiven")
     let remainder = document.querySelector(".rem")
+    let Reset = document.querySelector(".Reset")
+
 
     let TwoTh = document.querySelector(".TwoTh")
     let fivehund = document.querySelector(".fivehund")
@@ -76,10 +78,6 @@ function Calculate(){
             break
         }
     }
-    
-  
-
-
         TwoTh.innerText = givnote[0]
         fivehund.innerText = givnote[1]
         Twohund.innerText = givnote[2]
@@ -92,9 +90,24 @@ function Calculate(){
     }
 }
 
+function reset(){
+
+        TwoTh.innerText = 0
+        fivehund.innerText = 0
+        Twohund.innerText = 0
+        hund.innerText = 0
+        fifty.innerText = 0
+        ten.innerText = 0
+        five.innerText = 0
+        one.innerText = 0
+
+}
+
 calculate.addEventListener("click",Calculate)
+Reset.addEventListener("click",reset)
 
 
 
 //COLD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!REMAIN COLD.
+//additional.
 

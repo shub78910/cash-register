@@ -4,6 +4,7 @@ body{
     max-width: 70%;
     margin: auto;
     padding: 0.5rem;
+    /* background-image:linear-gradient(red,green,yellow) ; */
 }
 
 .heading{
@@ -15,6 +16,88 @@ body{
 .desc{
     letter-spacing: 0.01rem;
     font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.7rem;
+    
+}
+
+.input{
+    width: 50%;
+    height: 6vh;
+    border: solid black 1px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    
+}
+
+.button{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    margin: auto;
+    cursor: pointer;
+    border: 3px, solid, black;
+}
+
+.button:hover{
+    background-color: tomato;
+    transition: 0.5s;
+}
+
+.butt{
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
+.rem{
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: tomato;
+    padding: 0.8rem;
+    border-radius: 1rem;
+    /* margin-top: 2rem; */
+    max-width: 30%;
+    margin: auto;
+    letter-spacing: 0.4rem;
+}
+
+.denom{
+    font-size: 2rem;
+    padding: 0.5rem;
+    background-color: tomato;
+    /* margin-right:5rem ; */
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.ops{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    /* margin-right: 4rem; */
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.tbody{
+    border: 1px, black, solid; 
+    margin: auto;
+    max-width: 50%;  
+    
+}
+
+.denomHeading{
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 4rem;
+}
+
+.tabcenter{
+    margin: auto;
     
 }
 
