@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cash register</title>
+    <link href="style.css" type="text/css" rel="stylesheet"></link>
+</head>
+<body>
+    <h1 class="heading">
+        CASH REGISTER
+    </h1>
+    <p class="desc">This web app will make your work easy, by telling you exactly how much money you need to return back to your customer
+        and also, what minimum number of notes you need to give them.
+        So, if you have a business which involves time to time transaction, this'll help you I guess.
+    </p>
+
+    <h2 class="instructions"> Put in the total bill amount: </h2>
+    <input class="input bill" placeholder="bill goes here"><br><br>
+
+    <h2> What did the customer give? </h2>
+    <input class="input noteGiven" placeholder="Denomination goes here"><br><br>
+
+    <button class="button">Calculate</button>
+    <h2 class="instructions">The amount you need to give back is: <div class="rem"></div></h2>
+    
+<!-- 
+    <table>
+        <tr>Denomination</tr>
+        <td>bla</td><td>bla</td>
+        <tr>Number of notes</tr>
+        <td>ble</td><td>ble</td>
+    </table> -->
+
+
+    <!-- <ul >
+        <li  style="display:inline">2000: </li>
+
+        <li  style="display:inline">
+        <div style="display:inline"></div><br>
+        </li>
+
+        <li  style="display:inline">500: </li>
+
+        <li  style="display:inline">
+        <div style="display:inline"></div><br>
+        </li>
+
+        <li  style="display:inline">200: </li>
+
+        <li  style="display:inline">
+        <div style="display:inline"></div><br>
+        </li>
+
+        <li  style="display:inline">100: </li>
+
+        <li  style="display:inline">
+        <div style="display:inline"></div><br>
+        </li>
+
+        <li  style="display:inline">50: </li>
+
+        <li  style="display:inline">
+        <div style="display:inline"></div><br>
+        </li>
+
+        <li  style="display:inline">10: </li>
+
+        <li  style="display:inline">
+        <div style="display:inline"></div><br>
+        </li>
+
+        <li  style="display:inline">5: </li>
+
+        <li  style="display:inline">
+        <div style="display:inline"></div><br>
+        </li>
+
+        <li  style="display:inline">1: </li>
+
+        <li  style="display:inline">
+        <div style="display:inline"></div><br>
+        </li>
+    </ul> -->
+
+    <ul class="output">
+        <span>2000: </span><li style="display: inline;" style="display: inline;" class="TwoTh"></li> <br><br>
+        <span>500: </span><li style="display: inline;" class="fivehund"></li> <br><br>
+        <span>200: </span><li style="display: inline;" class="Twohund"></li> <br><br>
+        <span>100: </span><li style="display: inline;" class="hund"></li> <br><br>
+        <span>50: </span><li style="display: inline;" class="fifty"></li> <br><br>
+        <span>10: </span><li style="display: inline;" class="ten"></li> <br><br>
+        <span>5: </span><li style="display: inline;" class="five"></li> <br><br>
+        <span>1: </span><li style="display: inline;" class="one"></li> <br><br>
+
+    </ul>
+
+
+</body>
+<script src="index.js"></script>
+</html>
