@@ -78,6 +78,19 @@ function Calculate(){
             break
         }
     }
+
+
+    if (rem===0){
+        givnote[0]=0
+        givnote[1]=0
+        givnote[2]=0
+        givnote[3]=0
+        givnote[4]=0
+        givnote[5]=0
+        givnote[6]=0
+        givnote[7]=0
+    }
+    
         TwoTh.innerText = givnote[0]
         fivehund.innerText = givnote[1]
         Twohund.innerText = givnote[2]

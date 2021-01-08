@@ -6,9 +6,9 @@ body{
 }
 
 .main{
-    padding: 0.5rem;
+    padding: 0.3rem;
     margin: auto;
-    width: 70%;
+    max-width: 80%;
 }
 
 .heading{
@@ -36,7 +36,7 @@ body{
 }
 
 .button{
-    padding: 1rem;
+    padding: 0.7rem;
     font-size: 1.5rem;
     background-color: black;
     color: white;
@@ -44,6 +44,7 @@ body{
     margin: auto;
     cursor: pointer;
     border: 3px, solid, black;
+    /* width: 20%; */
 }
 
 .button:hover{
@@ -53,7 +54,7 @@ body{
 
 .butt{
     text-align: center;
-    padding: 2rem 0rem;
+    padding: 1rem 0rem;
 }
 
 .rem{
@@ -63,7 +64,7 @@ body{
     padding: 0.8rem;
     border-radius: 1rem;
     /* margin-top: 2rem; */
-    max-width: 30%;
+    max-width: 80%;
     height: 7vh;
     margin: auto;
     letter-spacing: 0.4rem;
