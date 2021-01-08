@@ -26,7 +26,7 @@ body{
 }
 
 .input{
-    width: 20%;
+    width: 40%;
     height: 6vh;
     border: solid black 1px;
     padding: 1rem;
@@ -84,7 +84,7 @@ body{
     padding: 0.5rem;
     background-color: tomato;
     /* margin-right:5rem ; */
-    /* border-radius: 1rem; */
+    border-radius: 1rem;
     text-align: center;
 }
 
