@@ -31,27 +31,23 @@
 
 
 
+let bill = document.querySelector(".bill")
+let noteGiven = document.querySelector(".noteGiven")
+
 let calculate = document.querySelector(".button")
+let remainder = document.querySelector(".rem")
+
+let TwoTh = document.querySelector(".TwoTh")
+let fivehund = document.querySelector(".fivehund")
+let Twohund = document.querySelector(".Twohund")
+let hund = document.querySelector(".hund")
+let fifty = document.querySelector(".fifty")
+let ten = document.querySelector(".ten")
+let five = document.querySelector(".five")
+let one = document.querySelector(".one")
 
 
 function Calculate(){
-
-    let bill = document.querySelector(".bill")
-    let noteGiven = document.querySelector(".noteGiven")
-    let remainder = document.querySelector(".rem")
-    let Reset = document.querySelector(".Reset")
-
-
-    let TwoTh = document.querySelector(".TwoTh")
-    let fivehund = document.querySelector(".fivehund")
-    let Twohund = document.querySelector(".Twohund")
-    let hund = document.querySelector(".hund")
-    let fifty = document.querySelector(".fifty")
-    let ten = document.querySelector(".ten")
-    let five = document.querySelector(".five")
-    let one = document.querySelector(".one")
-
-
     
     let output = document.querySelector(".output")
 
@@ -63,6 +59,7 @@ function Calculate(){
 
     if (rem<0){
         alert("The customer needs to give more!")
+        
     }
     else{
     
@@ -77,18 +74,10 @@ function Calculate(){
         if (rem===0){
             break
         }
-    }
 
-
-    if (rem===0){
-        givnote[0]=0
-        givnote[1]=0
-        givnote[2]=0
-        givnote[3]=0
-        givnote[4]=0
-        givnote[5]=0
-        givnote[6]=0
-        givnote[7]=0
+        if (givnote[i]===undefined ){
+            givnote[i]= 0
+        }
     }
     
         TwoTh.innerText = givnote[0]
@@ -101,20 +90,27 @@ function Calculate(){
         one.innerText = givnote[7]
     
     }
-}
 
+}
+let Reset = document.querySelector(".Reset")
 function reset(){
+    
 
-        TwoTh.innerText = 0
-        fivehund.innerText = 0
-        Twohund.innerText = 0
-        hund.innerText = 0
-        fifty.innerText = 0
-        ten.innerText = 0
-        five.innerText = 0
-        one.innerText = 0
+    bill.value = 0
+    noteGiven.value = 0
+    remainder.innerText = 0
+
+    TwoTh.innerText = 0
+    fivehund.innerText = 0
+    Twohund.innerText = 0
+    hund.innerText = 0
+    fifty.innerText = 0
+    ten.innerText = 0
+    five.innerText = 0
+    one.innerText = 0
 
 }
+
 
 calculate.addEventListener("click",Calculate)
 Reset.addEventListener("click",reset)
