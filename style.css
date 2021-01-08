@@ -71,16 +71,16 @@ body{
 }
 
 .denom{
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 0.5rem;
     background-color: tomato;
     /* margin-right:5rem ; */
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
     text-align: center;
 }
 
 .ops{
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 0.5rem;
     /* margin-right: 4rem; */
     border-radius: 1rem;
