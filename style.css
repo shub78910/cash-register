@@ -37,6 +37,8 @@ body{
 
 .flex_main{
     display: flex;
+    text-align: center;
+    justify-items: center;
 }
 
 .flex_child{
